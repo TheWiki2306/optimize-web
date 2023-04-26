@@ -1,0 +1,33 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between; 
+     align-items: top;
+    color: aliceblue;
+    margin-top: 0.5rem;
+}
+
+.navContainer img{
+    width: 5rem;
+}
+
+.nav{
+display: block;
+}
+
+.nav a{
+    color: var(--color-white);
+    font-size: 0.9em;
+    margin-left: 8rem;
+    
+}
+
+.nav a:hover{
+    color: var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+@media screen and (max-width: 900px) {
+    .nav a{
+        margin-left: 4rem;
+    }
+}

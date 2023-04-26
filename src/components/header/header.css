@@ -1,0 +1,9 @@
+.headerContainer{
+    color: var(--color-white);
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+span{
+    color: var(--color-primary-variant);
+}
