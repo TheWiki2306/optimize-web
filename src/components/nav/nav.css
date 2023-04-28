@@ -1,3 +1,4 @@
+
 .navContainer{
     display: flex;
     justify-content: space-between; 
@@ -8,10 +9,6 @@
 
 .navContainer img{
     width: 5rem;
-}
-
-.nav{
-display: block;
 }
 
 .nav a{
@@ -26,8 +23,59 @@ display: block;
     transition: var(--transition);
 }
 
+.navBtn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--color-primary-variant);
+    font-size: 1.5rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
 @media screen and (max-width: 900px) {
     .nav a{
         margin-left: 4rem;
     }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav a{
+        background: black;
+        padding: 1.2rem;
+        border-radius: 0.5rem;
+    }
+    .nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        /* background: var(--color-bg-variant); */
+        background: rgb(22, 22, 22);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    header .responsive{
+      transform: none;
+    }
+    .navBtn{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navCloseBtn{
+        position: absolute;
+        top: 2rem;
+        right: 0.8rem;
+    }
+    
 }

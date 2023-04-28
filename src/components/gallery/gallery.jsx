@@ -50,7 +50,8 @@ const handleClick = (elem) => {
        <video id={index} onClick={(e) => handleClick(e.currentTarget)}>
         <source src={video} className="vid"/>
       </video>
-      <div className='vidOverlay'><BsPlayCircle/></div>
+      <div 
+   className='vidOverlay'><BsPlayCircle/></div>
      </div>
     )
   })
