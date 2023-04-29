@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useRef } from 'react'
 // import GalleryContent from '../gallery content/GalleryContent';
 import "./gallery.css";
@@ -10,30 +10,51 @@ import vid5 from "../../assets/video_5.MP4"
 import {BsPlayCircle} from "react-icons/bs";
 
 const Gallery = () => {
-const videos = [
-  {video: vid1},
-  {video: vid2},
-  {video: vid3},
-  {video: vid4},
-  {video: vid5}
-]
+const [videos, setVideos] = useState([
+  {video: vid1, isPlaying: false, id: 1},
+  {video: vid2, isPlaying: false, id: 2},
+  {video: vid3, isPlaying: false, id: 3},
+  {video: vid4, isPlaying: false, id: 4},
+  {video: vid5, isPlaying: false, id: 5}
+]);
 
-const currVideoRef = useRef();
+const [currIndex, setCurrIndex] = useState(0)
 
-const handleClick = (elem) => {
-  if(currVideoRef.current) { 
-    if (currVideoRef.current.id !== elem.id) {
-      currVideoRef.current.pause();
-      currVideoRef.current = elem;
+const toggleVideo = (index) => {
+  if (currIndex !== index) {
+    document.getElementById(`video${currIndex}`).pause();
+  }
+  const videoElm = document.getElementById(`video${index}`)
+  videoElm.paused ? videoElm.play() : videoElm.pause();
+  setVideos(videos.map((video, i) => {
+    if (i === index) {
+      return {
+        ...video,
+        isPlaying: !videoElm.paused
+      }
     }
-  } else {
-    currVideoRef.current = elem;
-  }
-  if (currVideoRef.current.paused) {
-    currVideoRef.current.play()
-  } else {
-    currVideoRef.current.pause()
-  }
+    if (i === currIndex) {
+      return {
+        ...video,
+        isPlaying: false
+      }
+    }
+    return video
+  }));
+  setCurrIndex(index);
+}
+
+const handleEnded = (el) => {
+  el.currentTarget.currentTime = 0;
+  setVideos(videos.map((video, i) => {
+    if (i === currIndex) {
+      return {
+        ...video,
+        isPlaying: false
+      }
+    }
+    return video
+  }));
 }
 
   return (
@@ -46,11 +67,13 @@ const handleClick = (elem) => {
   videos.map(({video}, index) => {
     return(
      <div className='vidContainer' key={index}>
-       <video id={index} onClick={(e) => handleClick(e.currentTarget)}>
+       <video id={`video${index}`} onEnded={handleEnded}>
         <source src={video} className="vid"/>
       </video>
       <div 
-   className='vidOverlay'> <BsPlayCircle/></div>
+   className='vidOverlay' onClick={() => toggleVideo(index)}> 
+      {currIndex !== index || !videos[currIndex].isPlaying ? <BsPlayCircle /> : null}
+   </div>
      </div>
     )
   })
