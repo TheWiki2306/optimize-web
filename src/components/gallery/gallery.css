@@ -1,15 +1,17 @@
 .gallery{
-    margin-top: 5rem;
+    margin-top: 3rem;
     background: var(--color-bg-variant);
     height: 20rem;
-    opacity: 0.2;
+    /* opacity: 0.2; */
 }
 
-.galleryContainer{
-    /* margin-top: 3rem;
-    background: var(--color-bg-variant);
-    height: 20rem;
-    opacity: 0.1; */
+.galleryContainer h3{
+    font-size: 1em;
+    color: var(--color-white);
+    padding-top: 2rem;
+}
+
+.vidsContainer{
      display: grid;     
      grid-template-columns: repeat(5, 1fr);
      gap: 1rem;

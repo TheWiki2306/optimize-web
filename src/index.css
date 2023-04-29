@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #050505;
-  --color-bg-variant:  #363b19;
+  --color-bg-variant:  #0e0f06;
   --color-primary: #09aa32;
   --color-primary-variant: #cfec67;
   --color-white: #fff;
@@ -28,7 +28,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 
 

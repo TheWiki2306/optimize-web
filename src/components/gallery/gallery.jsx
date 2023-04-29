@@ -39,10 +39,9 @@ const handleClick = (elem) => {
   return (
     <>
     <div className='gallery'>
-      <h3>Past Events</h3>
     <div className='container galleryContainer'>
-      {/* <GalleryContent/> */}
-
+      <h3>Past Events</h3>
+<div className='vidsContainer'>
 {
   videos.map(({video}, index) => {
     return(
@@ -51,11 +50,12 @@ const handleClick = (elem) => {
         <source src={video} className="vid"/>
       </video>
       <div 
-   className='vidOverlay'><BsPlayCircle/></div>
+   className='vidOverlay'> <BsPlayCircle/></div>
      </div>
     )
   })
 }
+    </div>
     </div>
     </div>
     </>

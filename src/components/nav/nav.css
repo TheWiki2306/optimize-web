@@ -13,7 +13,7 @@
 
 .nav a{
     color: var(--color-white);
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-left: 8rem;
     
 }
@@ -41,7 +41,9 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    .navContainer img{
+        width: 3rem;
+    }
     .nav a{
         background: black;
         padding: 1.2rem;
@@ -50,18 +52,18 @@
     .nav{
         position: fixed;
         top: 0;
-        left: 0;
+        right: 0;
         height: 100%;
-        width: 100%;
+        width: 50%;
+        padding-right: 3.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         gap: 1rem;
-        /* background: var(--color-bg-variant); */
         background: rgb(22, 22, 22);
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateX(100vh);
     }
 
     header .responsive{
