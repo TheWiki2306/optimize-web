@@ -1,0 +1,43 @@
+.aboutContainer{
+    color: var(--color-white);
+}
+
+.aboutContainer h3{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1em;
+    color: var(--color-white);
+}
+.evt h4{
+margin-bottom: 0.8rem;
+width: 100%;
+color: var(--color-primary-variant);
+}
+
+.evt img{
+width: 100%;
+height: 15rem;
+object-fit: cover;
+}
+
+.evt p{
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutContainer{
+       margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutContainer{
+       margin-top: 20rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .aboutContainer{
+        margin-top: 37rem;
+    }
+}

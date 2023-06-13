@@ -1,0 +1,46 @@
+.eventContainer{
+    /* background: var(--color-white); */
+    /* background: var(--color-primary-variant); */
+    background: #070800;
+    height: 15rem;
+    margin-bottom: 2rem;
+    
+}
+
+.shotsContainer h3{
+font-size: 1em;
+padding-top: 2rem;
+padding-bottom: 1.5rem;
+/* text-align: center; */
+color: var(--color-primary-variant);
+}
+
+.eventSnaps{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.snaps img{
+    width: 100%;
+    height: 8rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .eventSnaps{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .eventSnaps{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .eventSnaps{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

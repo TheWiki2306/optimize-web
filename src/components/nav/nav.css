@@ -41,10 +41,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  
     .navContainer img{
         width: 3rem;
     }
     .nav a{
+        color: var(--color-primary-variant);
         background: black;
         padding: 1.2rem;
         border-radius: 0.5rem;
@@ -54,14 +56,15 @@
         top: 0;
         right: 0;
         height: 100%;
-        width: 50%;
+        width: 70%;
+        z-index: 1000;
         padding-right: 3.5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         gap: 1rem;
-        background: rgb(22, 22, 22);
+        background: #070800;
         transition: 1s;
         transform: translateX(100vh);
     }
@@ -76,8 +79,9 @@
 
     .navCloseBtn{
         position: absolute;
-        top: 2rem;
-        right: 0.8rem;
+        top: 1rem;
+        right: 1.5rem;
+        font-size: 1rem;
     }
     
 }

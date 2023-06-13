@@ -9,7 +9,6 @@ const Header = () => {
       animate={{ scale:1 }} 
       initial={{ scale:0 }}
       transition={{type: "spring", bounce: 5}}
-      
       >OPTIMIZE ENTERTAINMENT<span>.</span> </motion.h1>
       <h1 className='two'>RAVE AND GLAMOUR WHENEVER YOU CAN</h1>
     </div>
