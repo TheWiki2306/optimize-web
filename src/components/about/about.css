@@ -6,6 +6,7 @@
     margin-bottom: 3rem;
     text-align: center;
     font-size: 1em;
+    /* color: var(--color-white); */
     color: var(--color-white);
 }
 .evt h4{
@@ -21,7 +22,7 @@ object-fit: cover;
 }
 
 .evt p{
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 @media screen and (max-width: 1024px) {

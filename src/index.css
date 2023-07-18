@@ -29,13 +29,15 @@ html {
 }
 
 ::-webkit-scrollbar {
-  /* display: none; */
+  display: none;
 }
 
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
+  /* background: radial-gradient(circle, #cfec67 20%, rgb(17, 0, 8) 80%); */
+  background: radial-gradient(circle,rgb(0, 29, 7) 20%, rgb(17, 0, 8) 80%);
+  /* background: var(--color-bg); */
   /* color: var(--color-white); */
   /* line-height: 1.7; */
 }

@@ -2,7 +2,8 @@
 .gallery{
     margin-top: 3rem;
     background: var(--color-bg-variant);
-    height: 20rem;
+    /* background: #070800; */
+     height: 20rem;
     /* opacity: 0.2; */
 }
 
