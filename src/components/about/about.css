@@ -9,21 +9,28 @@
     /* color: var(--color-white); */
     color: var(--color-white);
 }
+
 .evt h4{
 margin-bottom: 0.8rem;
 width: 100%;
 /* color: var(--color-primary-variant); */
 color: var(--color-white);
+} 
+
+.evt_container{
+display: flex;
+gap: 3rem;
 }
 
 .evt img{
-width: 100%;
-height: 15rem;
-object-fit: cover;
+    width: 50%;
+    border-radius: 0.3rem;
 }
 
 .evt p{
-    font-size: 0.7em;
+    font-size: 0.8em;
+    width: 50%;
+    color: grey;
 }
 
 @media screen and (max-width: 1024px) {
