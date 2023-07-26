@@ -3,15 +3,16 @@
     margin-top: 3rem;
     background: var(--color-bg-variant);
     /* background: #070800; */
-     height: 20rem;
+     height: 21rem;
     /* opacity: 0.2; */
 }
 
 
 .galleryContainer h3{
     font-size: 1em;
-    color: var(--color-primary-variant);
-    padding-top: 2rem;
+    /* color: var(--color-primary-variant); */
+    color: white;
+    padding-top: 3rem;
     padding-bottom: 1rem;  
 }
 

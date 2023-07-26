@@ -21,7 +21,7 @@ const images = [
   return (
 <div className='eventContainer'>
     <div className='container shotsContainer'>
-      <h3>EVENT SNAPSHOT</h3>
+      <h3>Event Snapshots</h3>
       <div className='eventSnaps'>
         {
           images.map(({image}, index) => {

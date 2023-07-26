@@ -12,7 +12,8 @@
 .evt h4{
 margin-bottom: 0.8rem;
 width: 100%;
-color: var(--color-primary-variant);
+/* color: var(--color-primary-variant); */
+color: var(--color-white);
 }
 
 .evt img{

@@ -3,7 +3,8 @@
     margin-bottom: 2rem;
 }
 .eventsContainer h3{
-    color: var(--color-primary-variant);
+    /* color: var(--color-primary-variant); */
+    color: var(--color-white);
     font-size: 1em;
     margin-bottom: 2rem;
     width: 100%;
