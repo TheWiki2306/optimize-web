@@ -5,13 +5,26 @@
 .headerContainer{
     color: var(--color-white);
     padding-top: 5rem;
-    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+    /* padding-bottom: 1rem; */
     /* padding-left: 1rem; */
     /* text-align: center; */
 }
+.optimizeContainer{
+    font-size: 1.5em;
+    color: #121402;
+    /* color: white; */
+}
+
+.optimizeContainer span{
+    /* color: #121402; */
+    color: #b9eb04;
+
+}
 
 .headerContainer small{
-    color: var(--color-primary-variant);
+    /* color: var(--color-primary-variant); */
+    color: white;
     font-size: 0.8em;
     /* padding-left: 1.3%; */
 }

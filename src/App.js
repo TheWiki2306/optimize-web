@@ -6,6 +6,7 @@ import UpcomingEvents from './components/events/UpcomingEvents';
 import EventsShots from './components/EventsShots/EventsShots';
 import About from './components/about/about';
 import Promotion from './components/promotion/Promotion';
+import AboutUs from './components/about us/AboutUs';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <About/>
     <Promotion />
     <Gallery/> 
-
+    <AboutUs/>
     </div>
   );
 }
