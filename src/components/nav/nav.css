@@ -1,10 +1,16 @@
-
 .navContainer{
+    position: sticky;
+    top: 0;
+    bottom: 0;
     display: flex;
     justify-content: space-between; 
      align-items: top;
-    color: aliceblue;
-    margin-top: 0.5rem;
+    /* color: aliceblue; */
+    /* margin-top: 0.7rem; */
+    padding-top: 0.5rem;
+    background:  rgb(17, 0, 8);
+    z-index: 2;
+    padding-left: 4.3rem;
 }
 
 .navContainer img{
@@ -12,13 +18,22 @@
 }
 
 .nav a{
-    color: var(--color-white);
+    /* color: var(--color-white); */
+    /* color: var(--color-primary-variant); */
+    color: white;
+    /* color: var(--color-bg); */
+    /* background: var(--color-primary-variant); */
+    /* background-color: #070800; */
+    background: var(--color-bg-variant);
+    border-radius: 0.3rem;
+    padding: 0.6rem;
     font-size: 0.8em;
     margin-left: 8rem;
 }
 
 .nav a:hover{
     color: var(--color-primary-variant);
+    background: #121402;
     transition: var(--transition);
 }
 

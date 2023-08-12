@@ -1,7 +1,8 @@
 .eventContainer{
     /* background: var(--color-white); */
-    /* background: var(--color-primary-variant); */
-    background: #070800;
+    background:#bdec13;
+    /* background: #070800; */
+
     height: 15rem;
     margin-bottom: 2rem;
     

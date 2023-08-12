@@ -4,12 +4,18 @@
 
 .headerContainer{
     color: var(--color-white);
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-bottom: 1rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
+    /* text-align: center; */
 }
 
-span{
+.headerContainer small{
     color: var(--color-primary-variant);
+    font-size: 0.8em;
+    /* padding-left: 1.3%; */
+}
+span{
+    /* color: var(--color-primary-variant); */
 }
 

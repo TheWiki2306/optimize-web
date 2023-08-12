@@ -3,34 +3,38 @@
 }
 
 .aboutContainer h3{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
     font-size: 1em;
     /* color: var(--color-white); */
-    color: var(--color-white);
+    /* color: var(--color-white); */
+    color: grey;
 }
 
 .evt h4{
-margin-bottom: 0.8rem;
-width: 100%;
-/* color: var(--color-primary-variant); */
-color: var(--color-white);
+    margin-bottom: 0.8rem;
+    /* color: var(--color-primary-variant); */
+    /* color: var(--color-white); */
+    color: gray;
+    text-align: center;
 } 
 
 .evt_container{
-display: flex;
-gap: 3rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
 }
 
 .evt img{
-    width: 50%;
+    width: 40%;
     border-radius: 0.3rem;
 }
 
 .evt p{
     font-size: 0.8em;
-    width: 50%;
-    color: grey;
+    width: 80%;
+    color: white;
+    
 }
 
 @media screen and (max-width: 1024px) {

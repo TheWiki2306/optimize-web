@@ -11,7 +11,8 @@
 .galleryContainer h3{
     font-size: 1em;
     /* color: var(--color-primary-variant); */
-    color: white;
+    /* color: white; */
+    color: grey;
     padding-top: 3rem;
     padding-bottom: 1rem;  
 }

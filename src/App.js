@@ -5,7 +5,7 @@ import Gallery from './components/gallery/gallery';
 import UpcomingEvents from './components/events/UpcomingEvents';
 import EventsShots from './components/EventsShots/EventsShots';
 import About from './components/about/about';
-import Initiative from './components/initiative/Initiative';
+import Promotion from './components/promotion/Promotion';
 
 
 function App() {
@@ -13,11 +13,12 @@ function App() {
     <div>
       <Nav/> 
     <Header/>
-     <Gallery/> 
-    <UpcomingEvents/>
     <EventsShots/>
+    <UpcomingEvents/>
     <About/>
-    <Initiative />
+    <Promotion />
+    <Gallery/> 
+
     </div>
   );
 }

@@ -4,7 +4,8 @@
 }
 .eventsContainer h3{
     /* color: var(--color-primary-variant); */
-    color: var(--color-white);
+    /* color: var(--color-white); */
+    color: grey;
     font-size: 1em;
     margin-bottom: 2rem;
     width: 100%;

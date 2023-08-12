@@ -19,7 +19,7 @@ const images = [
 
 
   return (
-<div className='eventContainer'>
+<div className='eventContainer' id='events'>
     <div className='container shotsContainer'>
       <h3>Event Snapshots</h3>
       <div className='eventSnaps'>
