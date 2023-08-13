@@ -17,8 +17,7 @@ const images = [
   {image: img_5}
 ]
 
-
-  return (
+return (
 <div className='eventContainer' id='events'>
     <div className='container shotsContainer'>
       <h3>Event Snapshots</h3>

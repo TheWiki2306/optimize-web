@@ -1,6 +1,9 @@
 .mainHeader{
     /* background: radial-gradient(circle,rgb(5, 119, 30) 0%, rgb(17, 0, 8) 100%); */
-    }
+    background: url('../../assets/event_3.jpg')  no-repeat center center/cover;
+    /* background-position: center; */
+    padding: 0 0 3rem 0;
+}
 
 .headerContainer{
     color: var(--color-white);
@@ -8,7 +11,7 @@
     margin-bottom: 5rem;
     /* padding-bottom: 1rem; */
     /* padding-left: 1rem; */
-    /* text-align: center; */
+    text-align: center;
 }
 .optimizeContainer{
     font-size: 1.5em;

@@ -7,9 +7,9 @@ import "./nav.css";
 
 
 const Nav = () => {
-    const navRef = useRef();
+  const navRef = useRef();
     
-    const showNav = () => {
+  const showNav = () => {
   navRef.current.classList.toggle("responsive");
 }
 
@@ -20,17 +20,17 @@ const [active, setActive] = useState('#');
       <a href="#" onClick={() => setActive('#')} className={active === '#' ? 'events' : ''}> <img src={Logo} alt=""/> </a>
           
       <nav ref={navRef} className='nav'>
-        <a href="#events" onClick={() => setActive('#active')} className={active === 'events' ? 'active' : ''}>EVENTS</a>
-        <a href="#gallery" onClick={() => setActive('#active')} className={active === 'gallery' ? 'active' : ''}>GALLERY</a>
-        <a href="#about" onClick={() => setActive('#active')} className={active === 'about' ? 'active' : ''}>ABOUT US</a>
-          <button className='navBtn navCloseBtn' onClick={showNav}>
-            <FaTimes/>
-          </button>
-      </nav>
-
-        <button className='navBtn' onClick={showNav}>
-          <HiMenuAlt2/>
+        <a href="#events" onClick={() => setActive('#active')} className={active === 'events' ? 'active' : ''}>Events</a>
+        <a href="#gallery" onClick={() => setActive('#active')} className={active === 'gallery' ? 'active' : ''}>Gallery</a>
+        <a href="#about" onClick={() => setActive('#active')} className={active === 'about' ? 'active' : ''}>About Us</a>
+        <a href='#contact' onClick={() => setActive('#active')} className={active === 'contact' ? 'active' : ''}>Contact</a>       
+        <button className='navBtn navCloseBtn' onClick={showNav}>
+          <FaTimes/>
         </button>
+      </nav>
+      <button className='navBtn' onClick={showNav}>
+        <HiMenuAlt2/>
+      </button>
     </header>
   )
 }
