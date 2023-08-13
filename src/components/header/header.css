@@ -8,7 +8,7 @@
 .headerContainer{
     color: var(--color-white);
     padding-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 5.5rem;
     /* padding-bottom: 1rem; */
     /* padding-left: 1rem; */
     text-align: center;
@@ -27,8 +27,8 @@
 
 .headerContainer small{
     /* color: var(--color-primary-variant); */
-    color: white;
-    font-size: 0.8em;
+    color: var(--color-white);
+    font-size: 0.9em;
     /* padding-left: 1.3%; */
 }
 span{
