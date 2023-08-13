@@ -7,6 +7,7 @@ import EventsShots from './components/EventsShots/EventsShots';
 import About from './components/about/about';
 import Promotion from './components/promotion/Promotion';
 import AboutUs from './components/about us/AboutUs';
+import Contact from './components/contact/Contact';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Promotion />
     <Gallery/> 
     <AboutUs/>
+    <Contact/>
     </div>
   );
 }
