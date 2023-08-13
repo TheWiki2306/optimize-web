@@ -1,0 +1,10 @@
+.contactLinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactLinks a{
+    background: brown;
+    width: 20%;
+    height: 3rem;
+}
