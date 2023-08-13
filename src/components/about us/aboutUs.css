@@ -1,0 +1,16 @@
+.container.aboutUsContainer{
+    margin-top: 4rem;
+    width: 50%;
+}
+
+.aboutUsContainer h3{
+    font-size: 1.2em;
+    color: grey;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.aboutUsContainer p{
+    font-size: 0.8em;
+    text-align: center;
+}
