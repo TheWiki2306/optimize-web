@@ -1,14 +1,22 @@
-.contactContainer{
+/* .contactMainContainer{
+    width: 50%;
+} */
+
+.container.contactContainer{
     margin-top: 4rem;
+    width: 30%;
+}
+
+.contactContainer p{
+    text-align: center;
+    font-weight: 600;
 }
 
 .contactLinks{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 5rem;
 }
 
 .contactLinks a{
-    background: brown;
-    width: 20%;
-    height: 3rem;
 }
