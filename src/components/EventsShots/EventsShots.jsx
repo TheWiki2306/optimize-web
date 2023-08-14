@@ -1,4 +1,6 @@
-import React from 'react';
+import { React, useState } from 'react';
+// import { Carousel } from 'react-responsive-carousel';
+// import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "./eventsShots.css";
 import img_1 from "../../assets/event_1.jpg";
 import img_2 from "../../assets/event_2.jpg";
@@ -17,8 +19,10 @@ const images = [
   {image: img_5}
 ]
 
+
+
 return (
-<div className='eventContainer' id='events'>
+  <div className='eventContainer' id='events'>
     <div className='container shotsContainer'>
       <h3>Event Snapshots</h3>
       <div className='eventSnaps'>
@@ -27,14 +31,13 @@ return (
             return(
               <div key={index} className="snaps">              
                 <img src={image} alt="" />
-                  </div>
-
-            )
-          } )
-}
+              </div>
+              )
+            })
+        }
+        </div>
       </div>
-    </div>
-    </div>
+  </div>
   )
 }
 

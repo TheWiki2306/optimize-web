@@ -60,10 +60,10 @@
 
 @media screen and (max-width: 768px) {
   
-    .container.navContainer{
+    .navContainer{
         /* display: block; */
         /* align-items: center; */
-        width: 50%;
+        width: 95%;
     }
 
     .navContainer img{
