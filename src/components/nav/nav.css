@@ -1,3 +1,7 @@
+.navMainContainer{
+    background:  rgb(17, 0, 8);
+}
+
 .navContainer{
     position: sticky;
     top: 0;
@@ -56,15 +60,16 @@
 
 @media screen and (max-width: 768px) {
   
+    .container.navContainer{
+        /* display: block; */
+        /* align-items: center; */
+        width: 50%;
+    }
+
     .navContainer img{
         width: 3rem;
     }
-    .nav a{
-        color: var(--color-primary-variant);
-        background: black;
-        padding: 1.2rem;
-        border-radius: 0.5rem;
-    }
+    
     .nav{
         position: fixed;
         top: 0;
@@ -75,20 +80,31 @@
         padding-right: 3.5rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         align-items: center;
+        padding-top: 10rem;
         gap: 1rem;
         background: #070800;
         transition: 1s;
         transform: translateX(100vh);
     }
 
+
+    .nav a{
+        /* color: var(--color-primary-variant); */
+        /* background: black; */
+        padding: 1.2rem 4rem 1.2rem 4rem;
+        margin-top: 1rem;
+        border-radius: 0.5rem;
+    }
+    
     header .responsive{
       transform: none;
     }
     .navBtn{
         visibility: visible;
         opacity: 1;
+        color: #85BC2D;
     }
 
     .navCloseBtn{

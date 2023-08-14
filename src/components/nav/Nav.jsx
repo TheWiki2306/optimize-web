@@ -16,6 +16,7 @@ const Nav = () => {
 const [active, setActive] = useState('#');
 
   return (
+    <div className='navMainContainer'>
     <header className='navContainer'>
       <a href="#" onClick={() => setActive('#')} className={active === '#' ? 'events' : ''}> <img src={Logo} alt=""/> </a>
           
@@ -32,6 +33,7 @@ const [active, setActive] = useState('#');
         <HiMenuAlt2/>
       </button>
     </header>
+    </div>
   )
 }
 
