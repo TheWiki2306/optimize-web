@@ -1,22 +1,35 @@
-/* .contactMainContainer{
-    width: 50%;
-} */
+.contactMainContainer{
+    background: rgb(73, 72, 72);
+    border-top: 5px #85BC2D solid;
+    padding-top: 3rem;
+    margin-top: 5rem;
+}
 
 .container.contactContainer{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     width: 30%;
 }
 
-.contactContainer p{
+.contactContainer h3{
     text-align: center;
     font-weight: 600;
+    padding-bottom: 2rem;
+    color: var(--color-white);
 }
 
 .contactLinks{
     display: flex;
     /* justify-content: space-between; */
     gap: 5rem;
+    padding-bottom: 5rem;
 }
 
 .contactLinks a{
+    color: #85BC2D;
+    font-size: 1.2em;
+}
+
+.contactContainer small{
+    text-align: center;
+    color: #85BC2D;
 }

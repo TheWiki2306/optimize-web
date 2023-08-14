@@ -2,6 +2,8 @@
 .gallery{
     margin-top: 3rem;
     background: var(--color-bg-variant);
+    border-top: 5px#85BC2D solid;
+    border-bottom: 5px #85BC2D solid;
     /* background: #070800; */
      height: 21rem;
     /* opacity: 0.2; */
