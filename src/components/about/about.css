@@ -1,8 +1,16 @@
-.aboutContainer{
+.container.aboutContainer{
     /* background: url('../../assets/event_3.jpg') no-repeat center center/cover; */
-    background: var(--color-primary-variant2);
+    /* background: var(--color-primary-variant2); */
+    background: #85BC2D;
+    border-radius: 2rem;
     padding: 5rem;
-    
+    width: 70%;
+}
+
+.aboutContainer:hover{
+    background:#99d834;
+    border: 1px#85BC2D solid;
+    transition: 0.5s;
 }
 
 .abtContainer{
@@ -13,7 +21,9 @@
     margin-bottom: 0.5rem;
     text-align: center;
     font-size: 1.2em;
-    color: white;
+    /* color: white; */
+    /* color: var(--color-white); */
+    color: rgb(73, 72, 72);
 }
 
 .evt h4{
@@ -21,7 +31,8 @@
     margin-bottom: 0.8rem;
     /* color: var(--color-primary-variant); */
     /* color: var(--color-white); */
-    color: white;
+    /* color: var(--color-bg-variant); */
+    color: rgb(73, 72, 72);
     text-align: center;
 } 
 
@@ -41,6 +52,7 @@
     /* width: 80%; */
     width: 100%;
     color: white;
+    /* color: #85BC2D; */
     text-align: center;
 }
 

@@ -13,8 +13,7 @@ padding-top: 2rem;
 padding-bottom: 1.5rem;
 text-align: center;
 /* color: var(--color-primary-variant); */
-/* color: var(--color-white); */
-color: grey;
+color: var(--color-white);
 }
 
 .eventSnaps{

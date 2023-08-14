@@ -6,7 +6,7 @@ import { FiPhoneOutgoing } from 'react-icons/bs';
 
 const Contact = () => {
   return (
-    <div className='container contactContainer' >
+    <div className='container contactContainer' id='contact'>
         <p>Contact us:</p>
         <div className='contactLinks'>
             <a href='https://instagram.com/optimize_entertainment?igshid=NTc4MTIwNjQ2YQ=='><AiOutlineInstagram/></a>

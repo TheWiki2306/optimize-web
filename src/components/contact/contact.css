@@ -1,3 +1,7 @@
+.contactContainer{
+    margin-top: 4rem;
+}
+
 .contactLinks{
     display: flex;
     justify-content: space-between;
