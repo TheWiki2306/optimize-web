@@ -44,7 +44,8 @@ return (
   <div className='eventContainer' id='events'>
     <div className='container shotsContainer'>
       <h3>Event Snapshots</h3>
-      <div className='eventSnaps'>
+
+      <Carousel className='eventSnaps' responsive={responsive}>
         {
           images.map(({image}, index) => {
             return(
@@ -54,7 +55,7 @@ return (
               )
             })
         }
-        </div>
+        </Carousel>
       </div>
   </div>
   )
