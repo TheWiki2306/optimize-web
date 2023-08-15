@@ -7,29 +7,45 @@
 
 .container.contactContainer{
     /* margin-top: 4rem; */
-    width: 30%;
+    width: 50%;
 }
 
 .contactContainer h3{
     text-align: center;
     font-weight: 600;
     padding-bottom: 2rem;
-    color: var(--color-white);
+    /* color: var(--color-white); */
+    color: #85BC2D;
 }
 
 .contactLinks{
     display: flex;
-    /* justify-content: space-between; */
-    gap: 5rem;
+    justify-content: space-between;
+    /* gap: 5rem; */
     padding-bottom: 5rem;
 }
 
 .contactLinks a{
-    color: #85BC2D;
-    font-size: 1.2em;
+    /* color: #85BC2D; */
+    color: var(--color-white);
+    font-size: 1em;
 }
 
-.contactContainer small{
-    text-align: center;
+.contactLinks .link_1{
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.contactContainer p{
     color: #85BC2D;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 768px) {
+    .contactLinks{
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+    }
 }

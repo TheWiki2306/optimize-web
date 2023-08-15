@@ -1,11 +1,17 @@
 .navMainContainer{
     background:  rgb(17, 0, 8);
-}
-
-.navContainer{
     position: sticky;
     top: 0;
     bottom: 0;
+    z-index: 9999;
+}
+
+.navSubContainer{
+    display: none;
+}
+
+.navContainer{
+    
     display: flex;
     justify-content: space-between; 
      align-items: top;
@@ -14,7 +20,7 @@
     padding-top: 0.5rem;
     background:  rgb(17, 0, 8);
     z-index: 2;
-    padding-left: 4.3rem;
+    /* padding-left: 4.3rem; */
 }
 
 .navContainer img{
@@ -64,6 +70,11 @@
         /* display: block; */
         /* align-items: center; */
         width: 95%;
+        z-index: 9999;
+    }
+
+    .navSubContainer{
+        display: block;
     }
 
     .navContainer img{
@@ -73,10 +84,10 @@
     .nav{
         position: fixed;
         top: 0;
-        right: 0;
+        right: 0; 
         height: 100%;
         width: 70%;
-        z-index: 1000;
+        z-index: 2;
         padding-right: 3.5rem;
         display: flex;
         flex-direction: column;
@@ -88,7 +99,6 @@
         transition: 1s;
         transform: translateX(100vh);
     }
-
 
     .nav a{
         /* color: var(--color-primary-variant); */

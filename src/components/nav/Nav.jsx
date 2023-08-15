@@ -17,7 +17,7 @@ const [active, setActive] = useState('#');
 
   return (
     <div className='navMainContainer'>
-    <header className='navContainer'>
+    <header className='container navContainer'>
       <a href="#" onClick={() => setActive('#')} className={active === '#' ? 'events' : ''}> <img src={Logo} alt=""/> </a>
           
       <nav ref={navRef} className='nav'>
@@ -29,6 +29,10 @@ const [active, setActive] = useState('#');
           <FaTimes/>
         </button>
       </nav>
+
+      {/* <div className='navSubContainer'>
+        <a href="#events" onClick={() => setActive('#active')} className={active === 'events' ? 'active' : ''}>Events</a>
+      </div> */}
       <button className='navBtn' onClick={showNav}>
         <HiMenuAlt2/>
       </button>
