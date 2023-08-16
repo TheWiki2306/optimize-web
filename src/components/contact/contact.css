@@ -11,6 +11,7 @@
 }
 
 .contactContainer h3{
+    font-size: 1.4em;
     text-align: center;
     font-weight: 600;
     padding-bottom: 2rem;
@@ -23,6 +24,7 @@
     justify-content: space-between;
     /* gap: 5rem; */
     padding-bottom: 5rem;
+    width: 80%;
 }
 
 .contactLinks a{

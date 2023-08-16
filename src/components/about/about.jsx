@@ -7,10 +7,10 @@ const About = () => {
   return (
     <div className='container aboutContainer'>
     <div className='abtContainer'>
-      <h3>What We Do</h3>
+      <h3>WHAT WE DO</h3>
    
         <article className='evt'>
-          <h4>Event Management</h4>
+          <h4>EVENT MANAGEMENT</h4>
             <div className='evt_container'>
               {/* <img src={img_1} alt="" /> */}
                 <p>With attention to detail and a creative flair, we curate events that resonate with our unique style and preferences. 

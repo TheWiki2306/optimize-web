@@ -18,5 +18,4 @@ return (
   )
 }
 
-
 export default Promotion;

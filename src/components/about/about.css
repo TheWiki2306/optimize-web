@@ -1,14 +1,6 @@
 .container.aboutContainer{
-    background: #85BC2D;
-    border-radius: 2rem;
-    padding: 5rem;
+    margin-top: 5rem;
     width: 70%;
-}
-
-.aboutContainer:hover{
-    background:#99d834;
-    border: 1px#85BC2D solid;
-    transition: 0.5s;
 }
 
 .abtContainer{
@@ -18,13 +10,27 @@
 .abtContainer h3{
     margin-bottom: 0.5rem;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 600;
-    color: rgb(73, 72, 72);
+    /* color: rgb(73, 72, 72); */
+    color: #070800;
+    padding-bottom: 2rem;
+}
+
+.evt{
+    background: #85BC2D;
+    border-radius: 2rem;
+    padding: 5rem 0 5rem 0 ;
+}
+
+.evt:hover{
+    background:#99d834;
+    border: 1px#85BC2D solid;
+    transition: 0.5s;
 }
 
 .evt h4{
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 0.8rem;
     color: rgb(73, 72, 72);
     text-align: center;
@@ -38,7 +44,7 @@
 
 
 .evt_container p{
-    font-size: 0.8em;
+    font-size: 1em;
     width: 100%;
     color: var(---color-white);
     text-align: center;

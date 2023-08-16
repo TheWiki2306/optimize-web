@@ -38,9 +38,7 @@ body {
   /* background: radial-gradient(circle, #cfec67 20%, rgb(17, 0, 8) 80%); */
   /* background: radial-gradient(circle,rgb(0, 29, 7) 20%, rgb(17, 0, 8) 80%); */
   background: white;
-  /* background: var(--color-bg); */
-  /* color: var(--color-white); */
-  /* line-height: 1.7; */
+  
 }
 
 
