@@ -1,6 +1,4 @@
 .container.aboutContainer{
-    /* background: url('../../assets/event_3.jpg') no-repeat center center/cover; */
-    /* background: var(--color-primary-variant2); */
     background: #85BC2D;
     border-radius: 2rem;
     padding: 5rem;
@@ -22,17 +20,12 @@
     text-align: center;
     font-size: 1.2em;
     font-weight: 600;
-    /* color: white; */
-    /* color: var(--color-white); */
     color: rgb(73, 72, 72);
 }
 
 .evt h4{
     font-size: 1em;
     margin-bottom: 0.8rem;
-    /* color: var(--color-primary-variant); */
-    /* color: var(--color-white); */
-    /* color: var(--color-bg-variant); */
     color: rgb(73, 72, 72);
     text-align: center;
 } 
@@ -43,17 +36,11 @@
     align-items: center;
 }
 
-/* .evt img{
-    width: 40%;
-    border-radius: 0.3rem;
-} */
 
 .evt_container p{
     font-size: 0.8em;
-    /* width: 80%; */
     width: 100%;
-    color: white;
-    /* color: #85BC2D; */
+    color: var(---color-white);
     text-align: center;
 }
 
@@ -69,8 +56,3 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-    .aboutContainer{
-        margin-top: 37rem;
-    }
-}

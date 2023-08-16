@@ -3,16 +3,13 @@
     background: var(--color-bg-variant);
     border-top: 5px#85BC2D solid;
     border-bottom: 5px #85BC2D solid;
-    /* background: #070800; */
     height: 21rem;
-    /* opacity: 0.2; */
+    padding: bottom 1rem;
 }
 
 
 .galleryContainer h3{
     font-size: 1em;
-    /* color: var(--color-primary-variant); */
-    /* color: white; */
     color: #85BC2D;
     text-align: center;
     padding-top: 3rem;
@@ -58,14 +55,7 @@ video{
 }
 
 @media screen and (max-width: 1280px) {
-    .vidContainer {
-        /* gap: 5rem; */
-    }
-
-    video{
-        /* width: 95%;
-        height: 95%; */
-    }  
+    
 }
 
 
