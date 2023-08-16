@@ -20,20 +20,15 @@
 }
 
 .vidsContainer {
-/*     
-     display: flex;  
-     gap: 2rem;
-     width: 100%; */
     display: grid;
     grid-template-columns: repeat(1fr, 5);
-    align-content: space-between;
+    justify-content: space-between;
      }
 
 .vidContainer{ 
     /* border: 1px var(--color-primary-variant) solid; */
     width: 100%; 
     position: relative;
-    /* margin-left: 7rem; */
 }
 
 /* .click{
@@ -41,8 +36,9 @@
     font-size: 100rem;
 } */
 video{
-    width: 18.5rem;
-    height: 10.5rem;
+    /* width: 18.5%; */
+    /* height: 10.5%; */
+    width: 95%;
     border: 1px var(--color-primary-variant2) solid;
     border-radius: 0.4rem;
     /* margin-left: 5rem; */
@@ -52,21 +48,24 @@ video{
     color: var(--color-primary-variant2);
     font-size: 2rem;
     position: absolute;
-    top: 0;
+    top: 40%;
     bottom: 0;
+    right: 0;
+    left: 40%;
+    /* margin: 0 auto; */
     width: 100%;
-    padding: 4.5rem 8rem 4.5rem 8rem;
+    /* padding: 4.5rem 8rem 4.5rem 8rem; */
 }
 
 @media screen and (max-width: 1280px) {
-.vidContainer {
-    gap: 5rem;
-}
+    .vidContainer {
+        /* gap: 5rem; */
+    }
 
-video{
-    width: 95%;
-    height: 95%;
-  }  
+    video{
+        /* width: 95%;
+        height: 95%; */
+    }  
 }
 
 
@@ -90,14 +89,17 @@ video{
   }  
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 540px) {
     .vidContainer{
-        /* gap: rem; */
-    }
-    
+        /* padding-left: 2rem; */
+    }    
      video{
-        width: 100%;
+        /* width: 98%;
+        height: 98%; */
         /* height: 100%; */
+   }
+
+   .vidOverlay{
    }
   } 
 
@@ -109,15 +111,15 @@ video{
     .vidContainer{
         /* gap: 1rem; */
     }
+
     video{
     width: 100%;
-    height: 100%;
+    /* height: 100%;  */
     }
 
     .vidOverlay{
-        width: 100%;
-       left: 3.3rem;
-       top: 1.2rem; 
+      top: 42%;  
+      left: 45%;
     }
     
 }

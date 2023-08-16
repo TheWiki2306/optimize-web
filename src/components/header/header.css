@@ -40,3 +40,27 @@ span{
 /* @media screen and (max-width: 414px) {
     
 } */
+
+@media screen and (max-width: 1280px) {
+    .mainHeader{
+        padding: 0 0 8rem 0;
+    }
+
+    .headerContainer{
+        padding-top: 7rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .mainHeader{
+        padding: 0 0 3rem 0;
+    }
+
+    .headerContainer{
+        padding-top: 5rem;
+    }
+
+    .optimizeContainer h1{
+        font-size: 1.7em;
+    }
+  }
