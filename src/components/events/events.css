@@ -5,8 +5,8 @@
 .eventsContainer h3{
     /* color: var(--color-primary-variant); */
     /* color: var(--color-white); */
-    /* color: grey; */
-    color: rgb(73, 72, 72);
+    color: grey;
+    /* color: rgb(73, 72, 72); */
     font-size: 1.2em;
     font-weight: 600;
     text-align: center;

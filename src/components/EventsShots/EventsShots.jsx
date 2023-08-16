@@ -1,12 +1,12 @@
 import { React, useState } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import img_1 from "../../assets/opt_1.jpg";
+import img_2 from "../../assets/opt_2.jpg";
+import img_3 from "../../assets/opt_7.jpg";
+import img_4 from "../../assets/opt_4.jpg";
+import img_5 from "../../assets/opt_5.jpg";
 import "./eventsShots.css";
-import img_1 from "../../assets/event_1.jpg";
-import img_2 from "../../assets/event_2.jpg";
-import img_3 from "../../assets/event_3.jpg";
-import img_4 from "../../assets/event_4.jpg";
-import img_5 from "../../assets/event_5.jpg";
 
 
 

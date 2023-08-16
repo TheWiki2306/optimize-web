@@ -10,8 +10,9 @@ const Header = () => {
           <motion.h1 className='one' 
           animate={{ scale:1 }} 
           initial={{ scale:0 }}
-          transition={{type: "spring", bounce: 5}}
-          >OPTIMIZE <span>ENTERTAINMENT.</span> </motion.h1>
+          transition={{type: "spring", bounce: 1}}
+          >
+            <h1> OPTIMIZE <span>ENTERTAINMENT.</span> </h1></motion.h1>
         </div>
           <small>Crafting moments that are unforgettable and music that resonates far beyond the speakers.</small>
       </div>

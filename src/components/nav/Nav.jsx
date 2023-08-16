@@ -23,7 +23,7 @@ const [active, setActive] = useState('#');
       <nav ref={navRef} className='nav'>
         <a href="#events" onClick={() => setActive('#active')} className={active === 'events' ? 'active' : ''}>Events</a>
         <a href="#gallery" onClick={() => setActive('#active')} className={active === 'gallery' ? 'active' : ''}>Gallery</a>
-        <a href="#about" onClick={() => setActive('#active')} className={active === 'about' ? 'active' : ''}>About Us</a>
+        <a href="#about" onClick={() => setActive('#active')} className={active === 'about' ? 'active' : ''}>About</a>
         <a href='#contact' onClick={() => setActive('#active')} className={active === 'contact' ? 'active' : ''}>Contact</a>       
         <button className='navBtn navCloseBtn' onClick={showNav}>
           <FaTimes/>
