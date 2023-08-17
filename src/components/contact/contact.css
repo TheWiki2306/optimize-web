@@ -62,10 +62,18 @@
     font-size: 0.8em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+    .contactLinks{
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
     .contactLinks{
         flex-direction: column;
         gap: 3rem;
         text-align: center;
     }
-}
+} */
