@@ -4,7 +4,8 @@
     background: #070800;
     height: 20rem;
     margin-bottom: 2rem;
-    
+    border-top: 5px #85BC2D solid;
+    border-bottom: 5px #85BC2D solid;
 }
 
 .shotsContainer h3{
