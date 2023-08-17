@@ -32,7 +32,9 @@
 .evt h4{
     font-size: 1.2em;
     margin-bottom: 0.8rem;
-    color: rgb(73, 72, 72);
+    /* color: rgb(73, 72, 72); */
+    /* color: #070800; */
+    color: var(--color-white);
     text-align: center;
 } 
 

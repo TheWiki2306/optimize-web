@@ -7,8 +7,14 @@
 
 .container.contactContainer{
     /* margin-top: 4rem; */
-    width: 50%;
+    width: 80%;
 }
+
+/* .contactContainer{
+    margin: auto;
+    width: 50%;
+} */
+
 
 .contactContainer h3{
     font-size: 1.4em;
@@ -22,9 +28,10 @@
 .contactLinks{
     display: flex;
     justify-content: space-between;
+    align-content: center;
     /* gap: 5rem; */
     padding-bottom: 5rem;
-    width: 80%;
+    width: 90%;
 }
 
 .contactLinks a{
@@ -36,6 +43,17 @@
 .contactLinks .link_1{
     color: aliceblue;
     font-size: 1.5em;
+}
+
+.contactImage img{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactImage{
+    margin-bottom: 1rem;
 }
 
 .contactContainer p{

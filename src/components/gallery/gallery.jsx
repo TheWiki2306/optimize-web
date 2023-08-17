@@ -152,7 +152,7 @@ const handleEnded = (el) => {
     <>
     <div className='gallery' id='gallery'>
     <div className='container galleryContainer'>
-    <h3>Past Events</h3>  
+    <h3>PAST EVENTS</h3>  
 
       <Slider  className='vidsContainer' {...settings}>
           {

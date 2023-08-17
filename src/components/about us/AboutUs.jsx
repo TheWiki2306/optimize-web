@@ -4,7 +4,7 @@ import './aboutUs.css';
 const AboutUs = () => {
   return (
     <div className='container aboutUsContainer' id='about'>
-      <h3>About Us</h3>
+      <h3>ABOUT US</h3>
       <p>
         With a legacy spanning over 5 years,
         <br/>Optimize Entertainment has been a trailblazer in curating experiences that transcend the ordinary. 
