@@ -69,12 +69,14 @@
         gap: 3rem;
         width: 100%;
     }
+
+    .contactImage img{
+        width: 30%;
+    }
 }
 
-/* @media screen and (max-width: 768px) {
-    .contactLinks{
-        flex-direction: column;
-        gap: 3rem;
-        text-align: center;
+@media screen and (max-width: 768px) {
+    .contactImage img{
+        width: 50%;
     }
-} */
+}
