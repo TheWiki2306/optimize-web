@@ -86,7 +86,8 @@
         display: flex;
         gap: 1.5rem;
         flex-direction: column;
-        margin-bottom: 5rem;     
+        margin-bottom: 5rem;   
+        align-items: center;
     }
 
     .contacts{
