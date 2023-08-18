@@ -7,7 +7,7 @@
 
 .container.contactContainer{
     /* margin-top: 4rem; */
-    width: 80%;
+    width: 60%;
 }
 
 .contactContainer h3{
@@ -29,20 +29,39 @@
 }
 
 .contacts{
-    background: white;
+    /* background: white; */
+    background: black;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid #85BC2D;
     /* transition: var(--transition); */
     width: 30%;
+    height: 100%;
+    padding: 3rem 0 3rem 0;
+    font-size: 1.2rem;
+}
+
+.contactsIcon{
+    font-size: 1.8em;
+    color: #85BC2D;
 }
 
 .contacts a{
     margin-top: 0.7rem;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    color: #85BC2D;
+
 }
+
+.mailLink{
+    font-size: 1.4em;
+}
+
+/* .contacts p{
+    font-size: 5rem;
+} */
 
 .contactImage img{
     width: 20%;
@@ -67,7 +86,7 @@
         display: flex;
         gap: 1.5rem;
         flex-direction: column;
-        margin-bottom: 5rem;
+        margin-bottom: 5rem;     
     }
 
     .contacts{

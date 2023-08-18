@@ -13,8 +13,8 @@ const Contact = () => {
          <h3>CONTACT US</h3>
             <div className='contactAddress'>
               <article className='contacts'>
-               <AiOutlineInstagram/>
-               <p>instagram</p>
+               <AiOutlineInstagram className='contactsIcon'/>
+               <p>Instagram</p>
                <a href='https://instagram.com/optimize_entertainment?igshid=NTc4MTIwNjQ2YQ==' className='link_1'>optimize_entertainment</a>
               </article>
 
@@ -22,7 +22,7 @@ const Contact = () => {
                 <div>
                   <a href="tel:+2348182785577"><BsTelephone className='contactsIcon'/>:&nbsp;&nbsp;+2348182785577</a>
                 </div>
-                <a href="mailto:adedoyin@optimizeent.com"><TfiEmail/></a>
+                <a href="mailto:adedoyin@optimizeent.com"><TfiEmail className='mailLink'/></a>
                 <p>CEO</p>
               </article>
 
@@ -30,7 +30,7 @@ const Contact = () => {
                 <div>
                   <a href="tel:+2348182785577" className='contactsIcon'><BsTelephone className='contactsIcon'/>:&nbsp;&nbsp;+2349028112744</a>
                 </div>
-                <a href="mailto:malik.kazeem@optimizeent.com"><TfiEmail/></a>
+                <a href="mailto:malik.kazeem@optimizeent.com" className='mailLink'><TfiEmail className='mailLink'/></a>
                 <p>Communications Manager</p>
               </article>
 
