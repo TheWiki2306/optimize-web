@@ -91,7 +91,7 @@
     }
 
     .contacts{
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
 
@@ -101,7 +101,20 @@
 }
 
 @media screen and (max-width: 768px) {
+    .container.contactContainer{
+        /* margin-top: 4rem; */
+        width: 80%;
+    }
+    
     .contactImage img{
         width: 50%;
     }
+}
+
+@media screen and (max-width: 360px) {
+    .container.contactContainer{
+        /* margin-top: 4rem; */
+        width: 80%;
+    }
+    
 }
