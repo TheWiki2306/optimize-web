@@ -1,6 +1,6 @@
 .mainHeader{
     /* background: radial-gradient(circle,rgb(5, 119, 30) 0%, rgb(17, 0, 8) 100%); */
-    background: url('../../assets/opt_3.jpg')  no-repeat center center/cover;
+    background: url('../../assets/optImg_3.jpg')  no-repeat center center/cover;
     /* background-position: center; */
     padding: 0 0 9rem 0;
 }
@@ -16,14 +16,15 @@
 
 .optimizeContainer h1{
     font-size: 1.9em;
-    color: #121402;
+    /* color: #121402; */
+    color: #85BC2D;
+    /* color: #34D031; */
     font-weight: bolder;
     /* color: white; */
 }
 
 .optimizeContainer span{
     color: #85BC2D;
-
 }
 
 .headerContainer small{
