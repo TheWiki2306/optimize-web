@@ -79,6 +79,7 @@
     color: #85BC2D;
     text-align: center;
     font-size: 0.8em;
+    padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
