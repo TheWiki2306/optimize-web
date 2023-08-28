@@ -14,8 +14,11 @@ const Header = () => {
           >
             <h1> OPTIMIZE <span>ENTERTAINMENT.</span> </h1></motion.h1>
         </div>
-          <small>Crafting moments that are unforgettable and music that resonates far beyond the speakers.</small>
+        <div className='scroll'>
+            <p>Crafting moments that are unforgettable and music that resonates far beyond the speakers.</p>
+        </div>  
       </div>
+      
     </div>
   )
 }

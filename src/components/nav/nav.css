@@ -11,10 +11,12 @@
     
     display: flex;
     justify-content: space-between; 
+    align-content: center;
      align-items: top;
     /* color: aliceblue; */
     /* margin-top: 0.7rem; */
-    padding-top: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     /* background:  rgb(17, 0, 8); */
     background: black;
     z-index: 2;
@@ -22,7 +24,7 @@
 }
 
 .navContainer img{
-    width: 3rem;
+    width: 2.5rem;
 }
 
 .nav a{
@@ -34,9 +36,9 @@
     /* background-color: #070800; */
     background: var(--color-bg-variant);
     border-radius: 0.3rem;
-    padding: 0.6rem;
-    font-size: 0.8em;
-    margin-left: 5rem;
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    font-size: 0.7em;
+    margin-left: 3.5rem;
 }
 
 .nav a:hover{

@@ -11,7 +11,7 @@
 .abtContainer h3{
     margin-bottom: 0.5rem;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: 600;
     /* color: rgb(73, 72, 72); */
     color: #070800;
@@ -31,10 +31,8 @@
 }
 
 .evt h4{
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 0.8rem;
-    /* color: rgb(73, 72, 72); */
-    /* color: #070800; */
     color: var(--color-white);
     text-align: center;
 } 
@@ -46,7 +44,7 @@
 
 
 .evt_container p{
-    font-size: 1em;
+    font-size: 0.9em;
     /* width: 100%; */
     color: var(---color-white);
     text-align: center;

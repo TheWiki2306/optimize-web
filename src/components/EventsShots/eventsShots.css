@@ -3,16 +3,16 @@
     /* background: #85BC2D; */
     /* background: #070800; */
     background: black;
-    height: 20rem;
+    height: 18rem;
     margin-bottom: 2rem;
     border-top: 5px #85BC2D solid;
     border-bottom: 5px #85BC2D solid;
 }
 
 .shotsContainer h3{
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: 600;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     text-align: center;
     /* color: var(--color-primary-variant); */
@@ -28,8 +28,8 @@
 
 .snaps img{
     /* width: 100%; */
-    width: 95%;
-    height: 12rem;
+    width: 96%;
+    height: 10rem;
     border-radius: 0.5rem;
 }
 

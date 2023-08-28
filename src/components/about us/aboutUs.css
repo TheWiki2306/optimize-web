@@ -9,7 +9,7 @@
 }
 
 .aboutUsContainer h3{
-    font-size: 1.4em;
+    font-size: 1em;
     /* color: grey; */
     color: #85BC2D;
     margin-top: 1rem;
@@ -18,7 +18,7 @@
 }
 
 .aboutUsContainer p{
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
     /* color: rgb(73, 72, 72); */
     color: #85BC2D;
