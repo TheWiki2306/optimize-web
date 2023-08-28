@@ -15,11 +15,11 @@
 }
 
 .optimizeContainer h1{
-    font-size: 1.9em;
+    font-size: 2em;
     /* color: #121402; */
     color: #85BC2D;
     /* color: #34D031; */
-    font-weight: bolder;
+    font-weight: bold;
     /* color: white; */
 }
 
@@ -37,10 +37,6 @@
 span{
     /* color: var(--color-primary-variant); */
 }
-
-/* @media screen and (max-width: 414px) {
-    
-} */
 
 @media screen and (max-width: 1280px) {
     .mainHeader{

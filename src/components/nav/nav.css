@@ -7,10 +7,6 @@
     z-index: 9999;
 }
 
-.navSubContainer{
-    display: none;
-}
-
 .navContainer{
     
     display: flex;
