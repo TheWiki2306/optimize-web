@@ -1,6 +1,6 @@
 .mainHeader{
     /* background: radial-gradient(circle,rgb(5, 119, 30) 0%, rgb(17, 0, 8) 100%); */
-    background: url('../../assets/optImg_3.jpg')  no-repeat center center/cover;
+    background: url('../../assets/resizedimg3prime.jpg')  no-repeat center center/cover;
     /* background-position: center; */
     padding: 0 0 18rem 0;
     
@@ -47,7 +47,7 @@
     padding: 0.3rem;
     text-align: center;
     transform: translateX(100%);
-    animation: scrolling 10s linear infinite;
+    animation: scrolling 30s linear infinite;
 }
 
 @keyframes scrolling {

@@ -13,25 +13,27 @@ const Contact = () => {
          <h3>CONTACT US</h3>
             <div className='contactAddress'>
               <article className='contacts'>
+                <div>
+                  <p>Faleye Adedoyin</p>
+                  <a href="tel:+2348182785577"><BsTelephone className='contactsIcon'/>:&nbsp;&nbsp;+2348182785577</a>
+                </div>
+                <a href="mailto:adedoyin@optimizeent.com">adedoyin@optimizeent.com</a>
+                <p className='post'>CEO</p>
+              </article>
+
+              <article className='contacts'>
+                <div>
+                  <p>Malik Kazeem</p>
+                  <a href="tel:+2348182785577" className='contactsIcon'><BsTelephone className='contactsIcon'/>:&nbsp;&nbsp;+2349028112744</a>
+                </div>
+                <a href="mailto:malik.kazeem@optimizeent.com" className='mailLink'>malik.kazeem@optimizeent.com</a>
+                <p className='post'>Communications Manager</p>
+              </article>
+
+              <article className='contacts'>
                <AiOutlineInstagram className='contactsIcon'/>
                <p>Instagram</p>
                <a href='https://instagram.com/optimize_entertainment?igshid=NTc4MTIwNjQ2YQ==' className='link_1'>optimize_entertainment</a>
-              </article>
-
-              <article className='contacts'>
-                <div>
-                  <a href="tel:+2348182785577"><BsTelephone className='contactsIcon'/>:&nbsp;&nbsp;+2348182785577</a>
-                </div>
-                <a href="mailto:adedoyin@optimizeent.com"><TfiEmail className='mailLink'/></a>
-                <p>CEO</p>
-              </article>
-
-              <article className='contacts'>
-                <div>
-                  <a href="tel:+2348182785577" className='contactsIcon'><BsTelephone className='contactsIcon'/>:&nbsp;&nbsp;+2349028112744</a>
-                </div>
-                <a href="mailto:malik.kazeem@optimizeent.com" className='mailLink'><TfiEmail className='mailLink'/></a>
-                <p>Communications Manager</p>
               </article>
 
             </div>

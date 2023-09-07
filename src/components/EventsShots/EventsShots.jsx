@@ -44,7 +44,6 @@ const responsive = {
 return (
   <div className='eventContainer' id='events'>
     <div className='container shotsContainer'>
-      <h3>EVENTS SNAPSHOT</h3>
 
       <Carousel className='eventSnaps' responsive={responsive}>
         {
