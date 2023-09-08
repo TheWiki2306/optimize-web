@@ -1,6 +1,9 @@
 import { React, useState } from 'react';
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import img_1 from "../../assets/optImg_1.jpg";
 import img_2 from "../../assets/optImg_2.jpg";
 import img_3 from "../../assets/optImg_3.jpg";
@@ -28,25 +31,84 @@ const images = [
   {image: img_9}
 ]
 
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 4
-  },
+// const responsive = {
+//   superLargeDesktop: {
+//     // the naming can be any, depends on you.
+//     breakpoint: { max: 4000, min: 3000 },
+//     items: 5
+//   },
+//   desktop: {
+//     breakpoint: { max: 3000, min: 1024 },
+//     items: 4
+//   },
   
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1
-  }
+//   tablet: {
+//     breakpoint: { max: 1024, min: 464 },
+//     items: 2
+//   },
+//   mobile: {
+//     breakpoint: { max: 464, min: 0 },
+//     items: 1
+//   }
+// };
+
+
+const settings = {
+  dots: true,
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: false,
+  responsive: [
+      {
+          breakpoint: 1024,
+          settings: {
+              dots: true,
+              infinite: true,
+              slidesToShow: 4,
+              slidesToScroll: 1,
+          }
+      },
+
+      {
+          breakpoint: 768,
+          settings: {
+              dots: true,
+              infinite: true,
+              slidesToShow: 3,
+              slidesToScroll: 1,
+          }
+      },
+      {
+          breakpoint: 600,
+          settings: {
+              dots: true,
+              infinite: true,
+              slidesToShow: 2,
+              slidesToScroll: 1,
+          }
+      },
+      {
+          breakpoint: 414,
+          settings: {
+              dots: true,
+              infinite: true,
+              slidesToShow: 2,
+              slidesToScroll: 1,
+          }
+      },
+      {
+          breakpoint: 400,
+          settings: {
+              dots: true,
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+          }
+      }
+  ]
 };
 
 
@@ -54,7 +116,7 @@ return (
   <div className='eventContainer' id='events'>
     <div className='container shotsContainer'>
 
-      <Carousel className='eventSnaps' responsive={responsive}>
+      <Slider className='eventSnaps' {...settings}>
         {
           images.map(({image}, index) => {
             return(
@@ -64,7 +126,7 @@ return (
               )
             })
         }
-        </Carousel>
+        </Slider>
       </div>
   </div>
   )
