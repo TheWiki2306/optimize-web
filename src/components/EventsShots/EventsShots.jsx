@@ -59,7 +59,7 @@ const settings = {
   slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 2000,
   arrows: false,
   responsive: [
       {
@@ -73,7 +73,7 @@ const settings = {
       },
 
       {
-          breakpoint: 768,
+          breakpoint: 820,
           settings: {
               dots: true,
               infinite: true,
@@ -95,7 +95,7 @@ const settings = {
           settings: {
               dots: true,
               infinite: true,
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 1,
           }
       },
@@ -114,9 +114,9 @@ const settings = {
 
 return (
   <div className='eventContainer' id='events'>
-    <div className='container shotsContainer'>
+    <div className='container eventSnaps'>
 
-      <Slider className='eventSnaps' {...settings}>
+      <Slider className='' {...settings}>
         {
           images.map(({image}, index) => {
             return(

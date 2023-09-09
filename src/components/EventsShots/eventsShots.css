@@ -1,7 +1,4 @@
 .eventContainer{
-    /* background: #34D031;    */
-    /* background: #85BC2D; */
-    /* background: #070800; */
     background: black;
     height: 18rem;
     margin-bottom: 2rem;
@@ -9,29 +6,20 @@
     border-bottom: 5px #85BC2D solid;
 }
 
-/* .shotsContainer h3{
-    font-size: 1em;
-    font-weight: 600;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
-    color: var(--color-primary-variant);
-    color: var(--color-white);
-    color: #85BC2D;
-} */
-
 .eventSnaps{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    padding-top: 3.5rem;
+    /* display: grid; */
+    /* grid-template-columns: repeat(9, 1fr);   */
+
+    /* gap: 5rem; */
+   
+    /* justify-content: space-between;*/ 
+    padding-top: 3.5rem; 
 }
 
 .snaps img{
-    /* width: 100%; */
     width: 96%;
     height: 10rem;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem; 
 }
 
 @media screen and (max-width: 1024px) {
@@ -48,7 +36,8 @@
 
 @media screen and (max-width: 414px) {
     .snaps img{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
