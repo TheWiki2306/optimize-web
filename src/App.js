@@ -8,6 +8,7 @@ import About from './components/about/about';
 import Promotion from './components/promotion/Promotion';
 import AboutUs from './components/about us/AboutUs';
 import Contact from './components/contact/Contact';
+import Charity from './components/charity/Charity';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     {/* <UpcomingEvents/> */}
     <About/>
     <Promotion />
+    <Charity/>
     <Gallery/> 
     <AboutUs/>
     <Contact/>
