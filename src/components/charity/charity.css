@@ -5,16 +5,24 @@
     background-blend-mode: multiply;
     margin-top: 3rem;
     border-radius: 2rem;
-    padding: 5rem;
+    /* padding: 5rem; */
+    padding: 2rem;
     color: #fff;
 }
 
 .charityContainer h4{
     margin-bottom: 0.5rem;
     text-align: center;
+    padding-top: 3rem;
+}
+
+.txtContainer{
+    width: 95%;
+    margin: 0 auto;
 }
 
 .charityContainer p{
     font-size: 0.9em;
     text-align: justify;
+    padding-bottom: 3rem;
 }

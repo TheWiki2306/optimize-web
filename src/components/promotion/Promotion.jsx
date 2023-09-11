@@ -7,6 +7,7 @@ const Promotion = () => {
 return (
     <div className='container promotionContainer'>
       <h4>MUSIC PROMOTION AND MARKETING</h4>
+      <div className="promotionText">
       <p> We understand the power of music to connect, inspire, and move audiences. 
       Our Music Promotion and Marketing services are designed to amplify your musical journey.
       Leveraging a combination of digital strategies, social media expertise, and industry connections, 
@@ -14,6 +15,7 @@ return (
       Whether you're an emerging artist seeking exposure or an established musician looking to expand your audience, 
       we're committed to maximizing your music's impact in the digital age.
       </p>
+      </div>
     </div>
   )
 }

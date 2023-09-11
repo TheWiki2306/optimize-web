@@ -46,11 +46,11 @@
     letter-spacing: 0.1rem;
     padding: 0.3rem;
     text-align: center;
-    transform: translateX(100%);
-    animation: scrolling 30s linear infinite;
+    /* transform: translateX(100%);
+    animation: scrolling 30s linear infinite; */
 }
 
-@keyframes scrolling {
+/* @keyframes scrolling {
     0% {
         transform: translateX(100%);
     }
@@ -58,7 +58,7 @@
     100% {
         transform: translateX(-100%);
     }
-}
+} */
 
 
 
