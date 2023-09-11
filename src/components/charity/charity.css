@@ -1,0 +1,20 @@
+.charityContainer{
+    background: url('../../assets/79EF6FDE-D0CA-47AF-A00F-BFE8A486AE95-removebg-preview\ \(1\).png') no-repeat center center/cover;
+    width: 70%;
+    background-color: #85BC2D;
+    background-blend-mode: multiply;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    padding: 5rem;
+    color: #fff;
+}
+
+.charityContainer h4{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.charityContainer p{
+    font-size: 0.9em;
+    text-align: justify;
+}
