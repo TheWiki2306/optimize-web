@@ -13,7 +13,7 @@ const Charity = () => {
             Over the course of ten editions of "Feed a Mouth," we have reached over 6,000 individuals, 
             with each event providing food and hope to at least 300 people in Lagos. We've also expanded our reach to Kogi and Osun states, 
             making a broader impact.
-            Join us in making a difference Learn More about our mission to feed hope, nourish lives, 
+            Join us in making a difference <a href='https://www.instagram.com/optimize_feedamouth/'>Learn More </a>about our mission to feed hope, nourish lives, 
             and create a brighter future for those in need.</p>
            </div>
     </div>
