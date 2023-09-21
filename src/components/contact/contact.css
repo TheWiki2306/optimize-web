@@ -7,7 +7,7 @@
 
 .container.contactContainer{
     /* margin-top: 4rem; */
-    width: 60%;
+    width: 70%;
 }
 
 .contactContainer h3{
@@ -22,6 +22,7 @@
 .contactAddress{
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
     align-items: center;
     /* gap: 1.5rem; */
     /* flex-direction: column; */
@@ -68,6 +69,22 @@
     font-size: 5rem;
 } */
 
+.subText{
+    text-align: center;
+    background: black;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    border: 1px solid #85BC2D;
+    /* transition: var(--transition); */
+    width: 30%;
+    height: 100%;
+    padding: 3rem 1rem 3rem 1rem;
+    font-size: 1rem;
+}
+
+.subLink{
+    color: #fff;
+}
 .contactImage img{
     width: 20%;
     display: block;
@@ -103,6 +120,11 @@
 
     .contactImage img{
         width: 30%;
+    }
+
+    .subText{
+        width: 100%;
+        text-align: center;
     }
 }
 

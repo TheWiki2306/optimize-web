@@ -12,6 +12,9 @@ const Contact = () => {
         <div className='container contactContainer' id='contact'>
          <h3>CONTACT US</h3>
             <div className='contactAddress'>
+            <div className='subText'>
+                <p>We are building a community of like-minded top-notch entertainers, <a href="https://forms.gle/d813iBMguNJHPwVZ6" className='subLink'>Click here</a> to submit your email.</p>
+                </div>
               <article className='contacts'>
                 <div>
                   <p>Faleye Adedoyin</p>
@@ -35,6 +38,8 @@ const Contact = () => {
                <p>Instagram</p>
                <a href='https://instagram.com/optimize_entertainment?igshid=NTc4MTIwNjQ2YQ==' className='link_1'>optimize_entertainment</a>
               </article>
+
+                
 
             </div>
             <div className='contactImage'>
