@@ -13,7 +13,7 @@ const Contact = () => {
          <h3>CONTACT US</h3>
             <div className='contactAddress'>
             <div className='subText'>
-                <p>We are building a community of like-minded top-notch entertainers, <a href="https://forms.gle/d813iBMguNJHPwVZ6" className='subLink'>Click here</a> to submit your email.</p>
+                <p><a href="https://forms.gle/d813iBMguNJHPwVZ6" className='subLink'>Click here</a> to join the Optimize Entertainment community and also get first hand informations.</p>
                 </div>
               <article className='contacts'>
                 <div>
