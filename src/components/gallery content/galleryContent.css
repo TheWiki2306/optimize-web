@@ -1,0 +1,13 @@
+.vid__container{
+display: flex;
+gap: 2rem;
+}
+
+video{
+ 
+    width: 50%; 
+}
+
+ /* .vids{
+width: 20%;
+ } */
