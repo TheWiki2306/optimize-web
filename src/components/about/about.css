@@ -24,11 +24,11 @@
     padding: 5rem 0 5rem 0 ;
 }
 
-.evt:hover{
+/* .evt:hover{
     background:#99d834;
     border: 1px#85BC2D solid;
     transition: 0.5s;
-}
+} */
 
 .evt h4{
     font-size: 1em;
