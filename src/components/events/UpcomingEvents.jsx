@@ -28,7 +28,7 @@ const UpcomingEvents = () => {
                         networking, brand and lifestyle shows.       
                     </p>
                         <div className='hennyLink'>
-                            <a href="">Get Ticket Now</a>
+                            <a href="https://wakaevents.ng/en-ng/events/hennything-lagos">Get Ticket Now</a>
                         </div>
                 </div>
         </div>
