@@ -45,7 +45,7 @@ const Contact = () => {
             <div className='contactImage'>
               <img src={Logo} alt="" />
             </div>
-            <p> &copy; 2023 - optimize ent. All rights reserved. </p>
+            <p> &copy; 2019 - OPTIMIZE GLOBAL ENTERPRISES(RC 2884764). All rights reserved. </p>
 
         </div>
      </div>
