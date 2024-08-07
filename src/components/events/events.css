@@ -33,11 +33,16 @@
 .hennyContainer {
     font-size: 0.9em;
     background: #070800;
-    color: #85BC2D;
+    color: #fff;
+    /* color: #85BC2D; */
     /* background: #85BC2D;
     color: #070800; */
     padding: 2rem;
     border-radius: 2rem;
+}
+
+article{
+    text-align: center;
 }
 
 .hennyLink{
