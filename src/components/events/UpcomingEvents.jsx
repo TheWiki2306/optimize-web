@@ -17,27 +17,27 @@ import "./events.css";
 // ]
 const UpcomingEvents = () => {
   return (
-    <div className='container eventsContainer'>
-      <h3>UPCOMING EVENT</h3>
-        <div className='imgsContainer'>
-            <img src={Evt_1} alt=""/>
-                <div className='hennyContainer'>
-                    <p>
-                    We are thrilled to announce our 2024 Summer Rave, a spectacular 12-hour party that promises to be the highlight of your summer! 
-                    Join us on  August 17th, 
-                    from 2 PM to 2 AM at the stunning Voda Beach, Elegushi, Lagos.<br/><br/>
+    // <div className='container eventsContainer'>
+    //   <h3>UPCOMING EVENT</h3>
+    //     <div className='imgsContainer'>
+    //         <img src={Evt_1} alt=""/>
+    //             <div className='hennyContainer'>
+    //                 <p>
+    //                 We are thrilled to announce our 2024 Summer Rave, a spectacular 12-hour party that promises to be the highlight of your summer! 
+    //                 Join us on  August 17th, 
+    //                 from 2 PM to 2 AM at the stunning Voda Beach, Elegushi, Lagos.<br/><br/>
 
-                   <article> Date: August 17, 2024.<br/>
-                    Time: 2 PM - 2 AM.<br/>
-                    Location: Voda Beach, Elegushi, Lagos.</article>
+    //                <article> Date: August 17, 2024.<br/>
+    //                 Time: 2 PM - 2 AM.<br/>
+    //                 Location: Voda Beach, Elegushi, Lagos.</article>
        
-                    </p>
-                        <div className='hennyLink'>
-                            <a href="https://api.whatsapp.com/send?phone=+2348182785577">Get Ticket Now</a>
-                        </div>
-                </div>
-        </div>
-    </div>
+    //                 </p>
+    //                     <div className='hennyLink'>
+    //                         <a href="https://api.whatsapp.com/send?phone=+2348182785577">Get Ticket Now</a>
+    //                     </div>
+    //             </div>
+    //     </div>
+    // </div>
   )
 }
 
