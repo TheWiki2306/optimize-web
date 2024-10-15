@@ -33,7 +33,7 @@ const UpcomingEvents = () => {
        
                      </p>
                         <div className='hennyLink'>
-                             <a href="https://wakaevents.ng/en-ng/events/contrxl-lagos">Get Ticket Now</a>
+                             <a href="https://onburd.com/app/events/details/ImNvbnRyeGwtbGFnb3Mi">Get Ticket Now</a>
                          </div>
                  </div>
          </div>
