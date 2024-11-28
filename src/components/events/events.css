@@ -26,10 +26,31 @@
 
 
 .imgsContainer img{
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 70%;
+>>>>>>> daf1145c8cde95c5cb1adc00667f7ad6569d363a
     height: 90vh;
     object-position: center;
     object-fit: contain;
+}
+
+.imgsContainer .ctrlLink{
+    background: #070800;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.imgsContainer a {
+    color:#85BC2D;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.imgsContainer a:hover{
+    color: grey;
 }
 
 .hennyContainer {

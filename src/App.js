@@ -14,7 +14,7 @@ import Charity from './components/charity/Charity';
 function App() {
   return (
     <div>
-      <Nav/> 
+    <Nav/> 
     <Header/>
     <EventsShots/>
     <UpcomingEvents/>
