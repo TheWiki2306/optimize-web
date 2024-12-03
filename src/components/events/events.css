@@ -17,20 +17,16 @@
     margin-bottom: 2rem;
 }
 
-/* .imgsContainer{
+.imgsContainer{
     display: flex;
     gap: 2rem;
     align-items: center;
-} */
-
+}
 
 
 .imgsContainer img{
-<<<<<<< HEAD
     width: 100%;
-=======
     width: 70%;
->>>>>>> daf1145c8cde95c5cb1adc00667f7ad6569d363a
     height: 90vh;
     object-position: center;
     object-fit: contain;
