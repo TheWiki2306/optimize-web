@@ -17,7 +17,7 @@ function App() {
     <Nav/> 
     <Header/>
     <EventsShots/>
-    <UpcomingEvents/>
+    {/* <UpcomingEvents/> */}
     <About/>
     <Promotion />
     <Charity/>
